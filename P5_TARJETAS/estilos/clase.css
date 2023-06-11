@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--redblood);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: var(--redblood);
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: var(--redblood);
+}
+
+ul li {
+    font-size: 18px;
+    color: var(--redblood);
+}
+
+a {
+    text-decoration: none;
+    color: var(--redblood);
+}
+
+footer p {
+    font-size: 18px;
+    color: var(--redblood);
+    background-color: var(--pinkrose);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}

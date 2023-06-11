@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5_TARJETAS</title>
+    <style>
+    *{
+        margin: 0;
+        padding:0;
+    } 
+    img{
+    width: 100%;
+    }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+  }
+.container>div{
+    width: 50%;
+}
+.container img{
+    height: 100%;
+    object-fit:cover;
+}
+#card_l img{
+    object-position: right;
+}
+#card_r img{
+    object-position: left;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div id="card_l"> <img src="img/horse-attacked-by-a-lion GEORGE STUBBS.jpg" alt=""></div>
+        <div id="card_r"> <img src="img/hound-coursing-a-stag-GEORGE STUBBS.jpg" alt=""></div>
+    </div>
+</body>
+</html>
